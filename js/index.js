@@ -7,7 +7,7 @@ var form = document.forms;
 var buttonsub = document.querySelector("#Submit");
 
 console.log(BookmarkName);
-var regex1 = /^[A-Za-z]{1,}[0-9]{0,}\W{0,}\w{0,}[0-9]{0,}\W{0,}\w{0,}[0-9]{0,}\W{0,}\w{0,}[0-9]{0,}\W{0,}\w{0,}[0-9]{0,}$/,
+var regex1 = /^[A-Za-z]{1,}[0-9]{0,}\W{0,}\w{0,}[0-9]{0,}\W{0,}\w{0,}[0-9]{0,}\W{0,}\w{0,}[0-9]{0,}\W{0,}\w{0,}[0-9]{0,}$/gm,
   regexUrl =
     /(https:\/\/)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()!@:%_\+.~#?&\/\/=]*)/;
 
