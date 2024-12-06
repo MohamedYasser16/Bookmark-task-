@@ -71,3 +71,9 @@ h2 {
     background-clip:text;
     color: transparent;
 }
+
+@media (max-width : 450px) {
+    .my-h2 {
+        font-size: 21px;
+    }
+}
